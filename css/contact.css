@@ -1,0 +1,121 @@
+html {
+  scrollbar-width: none; 
+  -ms-overflow-style: none; 
+}
+
+html::-webkit-scrollbar { 
+  display: none;
+}
+
+body {
+  margin: auto;
+  background-color: gainsboro;
+}
+
+main {
+  padding-top: 100px;
+}
+
+.header-bar {
+  position: fixed;
+  display: flex;
+  background-color: white;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  z-index: 10;
+}
+
+.header-bar img {
+  margin-left: 15%;
+  height: 100px;
+}
+
+.topnav {
+  display: flex;
+  margin-right: 15%;
+  margin-left: auto;
+  justify-content: space-between;
+}
+
+.topnav a {
+  text-decoration: none;
+  color: grey;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-align: center;
+}
+
+.topnav a:hover {
+  color: rgb(48,48,48);
+}
+
+.photo-banner {
+  display: flex;
+  width: 100%;
+  height: 300px;
+}
+
+.photo-banner img {
+  object-fit: cover;
+  object-position: 50% 30%;
+  width: 100%;
+}
+
+.photo-banner-text {
+  color: white;
+  font-size: 4rem;
+  font-weight: bold;
+  letter-spacing: 0.3rem;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  position: absolute;
+  top: 250px;
+  left: 25%;
+  margin: 0rem;
+  transform: translate(-50%, -50%);
+}
+
+.about-container {
+  margin-left: 10%;
+  margin-right: 10%;
+  width: 80%;
+}
+
+.about-body {
+  display: flex;
+  color: rgb(48,48,48);
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.about-body-form label {
+  padding-top: 2.5%;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.about-body-form {
+    flex-basis: 50%;
+}
+
+.about-body-details {
+  flex-basis: 25%;
+  font-size: 18px;
+}
+
+.about-body-details h2 {
+  margin-top: 10px;
+  padding-top: 0;
+}
+
+.about-body-details p {
+  margin: 0.2rem;
+  font-size: 1rem;
+}
+
+.bottom-bar {
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
